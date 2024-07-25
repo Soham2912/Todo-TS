@@ -66,5 +66,42 @@ h1{
 }
 
 .todo {
-  
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(255, 237, 237);
+  /* border: 1px solid rgba(149,149,149, 0.695); */
+  border-radius: 5px;
+
+}
+
+.todo > input{
+  width: 2rem;
+  height: 2rem;
+  flex:none;
+}
+
+.todo > p{
+  font-weight: 600;
+}
+.todo > button{
+  flex: none;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background-color: crimson;
+  color: #fff;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.todo > button:hover{
+  opacity: 0.8;
+}
+
+.textCut{
+  text-decoration: line-through ;
 }
